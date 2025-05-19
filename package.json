@@ -1,0 +1,31 @@
+{
+  "name": "olimpia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.2",
+
+    "@aws-sdk/client-bedrock-runtime": "^3.755.0",
+    "@aws-sdk/client-rekognition": "^3.744.0",
+    "@aws-sdk/client-s3": "^3.342.0",
+    "@aws-sdk/s3-request-presigner": "^3.758.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@google/genai": "^0.11.0",
+    "@mui/icons-material": "^5.15.18",
+    "@mui/material": "^5.15.18",
+    "axios": "^1.9.0",
+    "firebase": "^11.6.1",
+    "firebase-admin": "^13.3.0",
+    "uuid": "^11.1.0",
+    "zustand": "^5.0.3"
+  }
+}

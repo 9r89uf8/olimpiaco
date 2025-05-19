@@ -1,0 +1,25 @@
+/* app/profile/page.module.css */
+.pageWrapper {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #343a40 0%, #212529 100%);
+    padding: 16px;
+    padding-top: 32px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding: 0 8px;
+    }
+
+    .pageWrapper {
+        padding: 8px;
+        padding-top: 16px;
+    }
+}
